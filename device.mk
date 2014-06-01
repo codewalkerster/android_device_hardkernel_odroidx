@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += \
 	device/hardkernel/odroidx/drivers/smsc95xx_x.ko:system/lib/modules/smsc95xx.ko \
-	device/hardkernel/odroidu/drivers/ax88179_178a_x.ko:system/lib/modules/ax88179_178a.ko
+	device/hardkernel/odroidx/drivers/ax88179_178a_x.ko:system/lib/modules/ax88179_178a.ko
 
 #
 # UVC Module
@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	device/hardkernel/odroidx/drivers/rtl8191su_x.ko:system/lib/modules/rtl8191su.ko \
-	device/hardkernel/odroidu/drivers/rtl8192cu_u.ko:system/lib/modules/rtl8192cu.ko
+	device/hardkernel/odroidx/drivers/rtl8192cu_x.ko:system/lib/modules/rtl8192cu.ko
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0 \
