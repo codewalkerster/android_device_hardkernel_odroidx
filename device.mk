@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
 	frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
+	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
 	frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
 	frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
 	frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
@@ -264,11 +265,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	device/hardkernel/proprietary/apk/DicePlayer.apk:system/app/DicePlayer.apk \
 	device/hardkernel/proprietary/lib/libSoundTouch.so:system/lib/libSoundTouch.so \
-	device/hardkernel/proprietary/lib/libdice_jb.so:system/lib/libdice_jb.so \
-	device/hardkernel/proprietary/lib/libdice_jb2.so:system/lib/libdice_jb2.so \
+	device/hardkernel/proprietary/lib/libdice_kk.so:system/lib/libdice_kk.so \
 	device/hardkernel/proprietary/lib/libdice_loadlibrary.so:system/lib/libdice_loadlibrary.so \
 	device/hardkernel/proprietary/lib/libdice_software.so:system/lib/libdice_software.so \
-	device/hardkernel/proprietary/lib/libdice_software_jb.so:system/lib/libdice_software_jb.so \
+	device/hardkernel/proprietary/lib/libdice_software_kk.so:system/lib/libdice_software_kk.so \
 	device/hardkernel/proprietary/lib/libffmpeg_dice.so:system/lib/libffmpeg_dice.so \
 	device/hardkernel/proprietary/lib/libsonic.so:system/lib/libsonic.so
 
