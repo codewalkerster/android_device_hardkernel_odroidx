@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += \
 	device/hardkernel/odroidx/drivers/smsc95xx.ko:system/lib/modules/smsc95xx.ko \
-	device/hardkernel/odroidu/drivers/ax88179_178a.ko:system/lib/modules/ax88179_178a.ko
+	device/hardkernel/odroidx/drivers/ax88179_178a.ko:system/lib/modules/ax88179_178a.ko
 
 #
 # UVC Module
@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	device/hardkernel/odroidx/drivers/rtl8191su.ko:system/lib/modules/rtl8191su.ko \
-	device/hardkernel/odroidu/drivers/rtl8192cu_u.ko:system/lib/modules/rtl8192cu.ko
+	device/hardkernel/odroidu/drivers/rtl8192cu.ko:system/lib/modules/rtl8192cu.ko
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0 \
@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
 	device/hardkernel/proprietary/bin/Vendor_03fc_Product_05d8.idc:system/usr/idc/Vendor_03fc_Product_05d8.idc \
 	device/hardkernel/proprietary/bin/Vendor_1870_Product_0119.idc:system/usr/idc/Vendor_1870_Product_0119.idc \
 	device/hardkernel/proprietary/bin/Vendor_1870_Product_0100.idc:system/usr/idc/Vendor_1870_Product_0100.idc \
-	device/hardkernel/proprietary/bin/Vendor_1870_Product_0119.idc:system/usr/idc/Vendor_2808_Product_81c9.idc
+	device/hardkernel/proprietary/bin/Vendor_2808_Product_81c9.idc:system/usr/idc/Vendor_2808_Product_81c9.idc
 
 # XBox 360 Controller kl keymaps
 PRODUCT_COPY_FILES += \
